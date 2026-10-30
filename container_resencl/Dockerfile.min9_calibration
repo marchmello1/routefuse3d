@@ -1,0 +1,6 @@
+# Reuses the fully verified 10-member calibration image without duplicating
+# its multi-gigabyte model layer on the capacity-limited validation host.
+# The final standalone image must be rebuilt with Dockerfile and the same
+# SELMA_MIN_COMPONENT_SIZE=9 argument before final submission.
+FROM selma-resencl-e1000-10-axis1-cal:latest
+ENV SELMA_MIN_COMPONENT_SIZE=9

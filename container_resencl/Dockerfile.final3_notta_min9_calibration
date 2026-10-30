@@ -1,0 +1,5 @@
+# Thin calibration variant. The primary Dockerfile can reproduce this image
+# from source/export with MEMBERS=final_only, FOLDS=0,2,4, MIRRORING=0, MIN=9.
+FROM selma-resencl-e1000-5final-notta-min9-cal:latest
+COPY --chown=user:user inference.py /opt/app/inference.py
+ENV SELMA_ENSEMBLE_FOLDS=0,2,4

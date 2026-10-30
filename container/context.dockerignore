@@ -1,0 +1,16 @@
+*
+!container/
+!container/Dockerfile
+!container/app.py
+!container/inference.py
+!container/requirements.txt
+!src/
+!src/model.py
+!model_prelim2/
+!model_prelim2/**
+!nossl5_standard10_model/
+!nossl5_standard10_model/**
+!task1_standard10_model/
+!task1_standard10_model/**
+!task2_standard10_model/
+!task2_standard10_model/**

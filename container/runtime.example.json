@@ -1,0 +1,15 @@
+{
+  "roi": 128,
+  "overlap": 0.25,
+  "sw_batch_size": 2,
+  "channels_last": true,
+  "shared_weight": 0.65,
+  "route_threshold": 0.5,
+  "density_threshold": 0.5,
+  "use_strata": true,
+  "isolated_threshold": 0.5,
+  "contiguous_threshold": 0.5,
+  "isolated_minimum_size": 1,
+  "contiguous_minimum_size": 1,
+  "contiguous_closing": 0
+}

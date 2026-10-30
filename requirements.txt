@@ -1,0 +1,9 @@
+numpy
+scipy
+torch
+SimpleITK
+nibabel
+monai
+panoptica
+connected-components-3d
+opencv-python-headless

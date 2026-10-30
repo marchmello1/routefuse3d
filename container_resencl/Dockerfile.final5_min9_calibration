@@ -1,0 +1,5 @@
+# Runtime-calibration variant: same verified ten-member export, but only the
+# five final checkpoints are loaded. The final standalone build should pass
+# SELMA_ENSEMBLE_MEMBERS=final_only to the primary Dockerfile instead.
+FROM selma-resencl-e1000-10-axis1-min9-cal:latest
+ENV SELMA_ENSEMBLE_MEMBERS=final_only

@@ -1,0 +1,4 @@
+# Calibration-only variant. The standalone final build should use the primary
+# Dockerfile with MEMBERS=final_only, MIRRORING=0, MIN_COMPONENT_SIZE=9.
+FROM selma-resencl-e1000-5final-axis1-min9-cal:latest
+ENV SELMA_MIRRORING=0 SELMA_MIRROR_AXES=all
