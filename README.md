@@ -4,7 +4,7 @@ This is code for **RouteFuse-3D**, team Marchmello01's entry to the
 [SELMA3D 2026](https://selma3d.grand-challenge.org/) challenge on segmenting
 light-sheet microscopy volumes.
 
-Final ranking: joint 1st in Task 1 and joint 2nd in Task 2.
+**🥇 Shared 1st place in both Task 1 and Task 2, SELMA3D 2026 (MICCAI 2026).**
 
 ## Method
 
